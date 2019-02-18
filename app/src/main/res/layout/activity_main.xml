@@ -18,6 +18,12 @@
         android:layout_height="wrap_content"
         android:text="高斯模糊淡化" />
 
+    <Button
+        android:id="@+id/btn_size"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="图片大小测试" />
 
 
 </LinearLayout>

@@ -26,8 +26,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".BlurActivity" />
-        <activity android:name="BlurAphaActivity"/>
+        <activity android:name=".blur.BlurActivity" />
+        <activity android:name=".blur.BlurAphaActivity"/>
+        <activity android:name=".imagesize.ImageSizeActivity" />
     </application>
 
 </manifest>

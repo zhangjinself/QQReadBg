@@ -5,12 +5,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageView;
 
-import com.bumptech.glide.Glide;
-import com.bumptech.glide.load.engine.DiskCacheStrategy;
-
-import jp.wasabeef.glide.transformations.internal.FastBlur;
+import com.aqj.zj.blur.BlurActivity;
+import com.aqj.zj.blur.BlurAphaActivity;
+import com.aqj.zj.imagesize.ImageSizeActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -33,6 +31,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent =new Intent(MainActivity.this,BlurAphaActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button btn_size = findViewById(R.id.btn_size);
+        btn_size.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent =new Intent(MainActivity.this,ImageSizeActivity.class);
                 startActivity(intent);
             }
         });

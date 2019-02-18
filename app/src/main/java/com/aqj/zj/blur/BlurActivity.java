@@ -1,9 +1,11 @@
-package com.aqj.zj;
+package com.aqj.zj.blur;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.widget.ImageView;
+
+import com.aqj.zj.R;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 

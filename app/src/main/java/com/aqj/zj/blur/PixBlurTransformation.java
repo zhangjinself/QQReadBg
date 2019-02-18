@@ -1,4 +1,4 @@
-package com.aqj.zj;
+package com.aqj.zj.blur;
 
 import android.content.Context;
 import android.graphics.Bitmap;
